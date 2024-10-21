@@ -1,0 +1,58 @@
+.top{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    margin-left: 600px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: -600px;
+    gap: 100px;
+}
+button{
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+}
+body{
+
+    background-color: bisque;
+}
+.medium{
+    display: grid;
+    grid-template-columns: 340px 340px;
+    gap: 20px;
+}
+.main{
+    width: 700px;
+    height: 300px;
+    padding: 10px;
+}
+.med{
+    width: 340px;
+    padding: 10px;
+}
+.big1{
+    width: 340px;
+    height: 320px;
+    /* padding: 10px; */
+}
+.big{
+    display: grid;
+    grid-template-columns: 330px 340px;
+    margin-left: 10px;
+    gap: 30px;
+}
+.box{
+    
+    padding: 30px;
+    
+}
+.body{
+    display: grid;
+    grid-template-columns: 700px 700px;
+    gap: 40px;
+}
+.sec_row .
